@@ -65,7 +65,7 @@ const WorkExperience: FC<WorkExperienceProps> = ({ exprience }) => {
         <ExperienceInfo>
           {exprience.expriences.map((item, index) => (
             <ListItem key={index} disableGutters>
-              <Typography variant='body1'>{item}</Typography>
+              <Typography variant='body1' dangerouslySetInnerHTML={{__html: item}}></Typography>
             </ListItem>
           ))}
         </ExperienceInfo>

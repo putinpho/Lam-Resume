@@ -1,4 +1,3 @@
-import { Box, Chip, List, ListItem, Typography, styled } from '@mui/material';
 import { Briefcase } from 'react-feather';
 
 import PageCover from '../../components/page-layout/page-cover';

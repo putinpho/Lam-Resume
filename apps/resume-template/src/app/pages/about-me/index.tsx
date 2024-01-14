@@ -6,9 +6,8 @@ import {
   SectionTitle,
   SectionWrapper,
 } from '../../components/section';
-import { Grid, Box, Chip, Typography, styled } from '@mui/material';
-
-
+import { Typography } from '@mui/material';
+import Education from './components/education';
 
 const AboutMe = () => {
   return (
@@ -18,18 +17,16 @@ const AboutMe = () => {
         <SectionRow>
           <SectionCol>
             <Typography variant="body1">
-              For 17 years, I've been building software, from the early days of
-              Java and PHP to mastering the versatility of Ruby and Javascript.
-              This journey opened doors to both front-end magic (React, Vue) and
-              back-end mastery (Ruby, Node.js, Python, Go).
-            </Typography>
-            <Typography variant="body1" sx={{mt: 1}}>
-              My expertise goes beyond front-end and back-end. I confidently
-              handle DevOps tools like Docker, Kubernetes, Helm, Jenkins,
-              Concourse, ... ensuring smooth deployments and scaling up projects
-              effortlessly. At the heart of it all, I'm a problem-solver, a team
-              player, and a lifelong learner, always driven by the desire to use
-              technology to make a positive impact.
+              Recent graduate and aspiring software engineer with a passion for
+              learning and a demonstrated aptitude for cutting-edge
+              technologies. My independent study has provided me with a solid
+              understanding of ReactJS, Git Actions, Kubernetes, and Istio, as
+              well as practical experience in developing micro front-ends with
+              Federation webpack plugin. While I haven't had the experience of a
+              traditional workplace, I actively seek challenges through personal
+              projects and embrace opportunities to learn new skills quickly. I
+              am confident that my self-motivation, technical skillset, and
+              collaborative spirit make me a valuable asset to your team.
             </Typography>
           </SectionCol>
         </SectionRow>
@@ -38,22 +35,24 @@ const AboutMe = () => {
         <SectionTitle icon={<Target size={35} />} title="Education" />
         <SectionRow>
           <SectionCol>
-            <Box>
-              <Grid container justifyContent="space-between" gap={1}>
-                <Grid item md={4} xs={12}>
-                  <Chip label="2000-2006" color="default" />
-                </Grid>
-                <Grid item md={4} xs={12}>
-                  <Chip label="Ho Chi Minh, Viet Nam" color="default" />
-                </Grid>
-              </Grid>
-              <Box sx={{ mt: 1 }}>
-                <Typography variant='h6'>University Of technologies</Typography>
-                <Typography variant='body1' sx={{ mt: 1 }}>
-                  Bachelor of Science in Computer Science
-                </Typography>
-              </Box>
-            </Box>
+            <Education
+              duration="2022-2023"
+              location="Vancouver, BC. Canada"
+              university="Langara College"
+              degree="Associate of Science Degree in Computer Science"
+            />
+            <Education
+              duration="2020-2022"
+              location="Vancouver, BC. Canada"
+              university="Simon Fraser University"
+              degree="Bachelor of Science in Computer Science"
+            />
+            <Education
+              duration="2018-2020"
+              location="Vancouver, BC. Canada"
+              university="Langara College"
+              degree="Associate of Science Degree in Computer Science"
+            />
           </SectionCol>
         </SectionRow>
       </SectionWrapper>

@@ -91,12 +91,6 @@ const Menu: FC = () => {
           <Typography variant="caption">Skills</Typography>
         </StyledNavLink>
       </StyledMenuItem>
-      <StyledMenuItem>
-        <StyledNavLink to="/contact-me">
-          <AtSign />
-          <Typography variant="caption">Contact</Typography>
-        </StyledNavLink>
-      </StyledMenuItem>
     </StyledList>
   );
 };

@@ -2,50 +2,63 @@ import { Skill } from "./components/types";
 
 const SkillData: Skill[] = [
   {
-    name: 'Ruby',
-    level: 90,
-    description: '17 years',
-  },
-  {
-    name: 'Javascript/Typescript',
-    level: 90,
-    description: '18 years',
-  },
-  {
-    name: 'Python',
+    name: 'Assembly Language',
     level: 60,
-    description: '5 years',
+    description: '1 year',
   },
 
   {
-    name: 'Go',
-    level: 50,
+    name: 'C/C++',
+    level: 90,
+    description: '3 years',
+  },
+
+  {
+    name: 'Firebase',
+    level: 60,
+    description: '1 years',
+  },
+
+  {
+    name: 'HTML/CSS',
+    level: 60,
+    description: '1 year',
+  },
+
+  {
+    name: 'Java',
+    level: 90,
     description: '2 years',
   },
+
   {
-    name: 'MySQL',
-    level: 75,
-    description: '18 years',
-  },
-  {
-    name: 'Redis',
-    level: 85,
-    description: '12 years',
-  },
-  {
-    name: 'PostgreSQL',
-    level: 75,
-    description: '8 years',
-  },
-  {
-    name: 'Devops',
+    name: 'Javascript/Typescript',
     level: 60,
-    description: '6 years',
+    description: '1 years',
   },
+
   {
-    name: 'Cyber Security',
-    level: 50,
-    description: '5 years',
+    name: 'Linux OS',
+    level: 60,
+    description: '1 year',
+  },
+
+  {
+    name: 'Mac OS',
+    level: 30,
+    description: '1 year',
+  },
+
+  {
+    name: 'React',
+    level: 60,
+    description: '1 year',
+  },
+
+  {
+    name: 'Python',
+    level: 60,
+    description: '1 years',
   },
 ];
 

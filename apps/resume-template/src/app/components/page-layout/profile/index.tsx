@@ -27,7 +27,7 @@ const Wrapper = styled(Box)(({ theme }) => ({
   width: '100%',
   height: '100%',
   background:
-    'linear-gradient(135deg, rgba(120, 204, 109, 0.6) 0%, rgba(120, 204, 109, 0.01) 100%)',
+    'linear-gradient(135deg, rgba(109, 128, 204, 0.6) 0%, rgba(120, 204, 109, 0.01) 100%)',
   borderRadius: theme.spacing(1),
   padding: theme.spacing(2, 0, 0, 2),
   display: 'flex',
@@ -113,29 +113,37 @@ const Profile = () => {
       <ProfileContainer>
         <StyledImage src="assets/images/profile.jpg" />
         <NameAndRoleCover>
-          <StyledName>Quy Tran Doan</StyledName>
-          <StyledRole>Software Engineer</StyledRole>
+          <StyledName>Lam Huynh</StyledName>
+          <StyledRole>Junior Software Developer</StyledRole>
         </NameAndRoleCover>
         <SocialLinks>
-          <SocialLink href="https://github.com/RobDoan" target="_blank">
+          <SocialLink href="https://github.com/putinpho" target="_blank">
             <GitHub size={24} />
           </SocialLink>
           <SocialLink
-            href="https://www.linkedin.com/in/quy-doan-56516512/"
+            href="https://www.linkedin.com/in/lamhuynh-123/"
             target="_blank"
           >
             <Linkedin size={24} />
           </SocialLink>
-          <SocialLink href="/skills" target="_blank">
+          {/* <SocialLink href="/skills" target="_blank">
             <Globe size={24} />
-          </SocialLink>
+          </SocialLink> */}
         </SocialLinks>
         <Box flexGrow={1} />
         <ActionsSection>
-          <ActionButton variant="text" fullWidth>
+          <ActionButton
+            variant="text"
+            fullWidth
+            href="https://docs.google.com/document/d/1mp1dEk7CovAFbZ6Qy8UURloJMq3Uicq9ji2SPMdUHc0/edit?usp=sharing"
+          >
             Download CV
           </ActionButton>
-          <ActionButton variant="text" fullWidth href="/contact-me">
+          <ActionButton
+            variant="text"
+            fullWidth
+            href="mailto:thienlam2000@gmail.com"
+          >
             Contact Me
           </ActionButton>
         </ActionsSection>
