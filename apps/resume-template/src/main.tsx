@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <StrictMode>
-    <BrowserRouter basename='/resume-template/app/'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>
