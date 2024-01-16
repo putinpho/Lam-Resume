@@ -114,7 +114,7 @@ const Profile = () => {
         <StyledImage src="assets/images/profile.jpg" />
         <NameAndRoleCover>
           <StyledName>Lam Huynh</StyledName>
-          <StyledRole>Junior Software Developer</StyledRole>
+          <StyledRole>Software Developer</StyledRole>
         </NameAndRoleCover>
         <SocialLinks>
           <SocialLink href="https://github.com/putinpho" target="_blank">

@@ -22,10 +22,9 @@ const AboutMe = () => {
               technologies. My independent study has provided me with a solid
               understanding of ReactJS, Git Actions, Kubernetes, and Istio, as
               well as practical experience in developing micro front-ends with
-              Federation webpack plugin. While I haven't had the experience of a
-              traditional workplace, I actively seek challenges through personal
+              Federation webpack plugin. During my studies , I actively seek challenges through personal
               projects and embrace opportunities to learn new skills quickly. I
-              am confident that my self-motivation, technical skillset, and
+              am confident that my self-motivation, dedication, technical skillset, and
               collaborative spirit make me a valuable asset to your team.
             </Typography>
           </SectionCol>
