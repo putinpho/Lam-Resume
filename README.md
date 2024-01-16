@@ -1,5 +1,5 @@
 # Resume site
-### Overview
+## Overview
 This is my personal website building in React.js with simple animated background and theme color
 
 [Implementation Steps](./docs/README.md)
